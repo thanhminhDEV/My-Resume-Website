@@ -2,172 +2,220 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="my resume website" />
-        <meta name="author" content="Minh DEV" />
-        <meta name="country" content="VietNam" />
+        <meta name="author" content="Ming Dev" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/styles.css" />
-        <title>My resume Website</title>
+        <title>My Resume Website</title>
+        <!-- link css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- gg font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sen:wght@700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <h1 class="menu-text">My Resume</h1>
-        <nav>
-            <a href="#contact" class="menu-left">Contact</a>
-            <a href="#education" class="menu-left">Education</a>
-            <a href="#scores" class="menu-left">Scores</a>
-            <a href="#social" class="menu-right">Social media</a>
-        </nav>
-        <div class="container">
-            <div class="left-sida">
-                <h2 id="contact">Contact information</h2>
-                <img
-                    src="./assets/image/meowmeow.jpg"
-                    alt="meowmeow"
-                    width="100px"
-                    height="100px"
-                />
-                <p>
-                    <em
-                        >I am an information technology student of NTT
-                        University</em
-                    >
-                </p>
+        <main>
+            <header class="header">
+                <h1 class="title">My Resume</h1>
+            </header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    <ul class="list">
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#scores">Scores</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <div class="list">
+                        <a href="#social">Social media</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="introduce">
+                <div class="container">
+                    <div class="info">
+                        <h2 class="sub-title" id="contact">
+                            Contact information
+                        </h2>
+                        <img
+                            src="./assets/image/meowmeow.jpg"
+                            alt=""
+                            class="avatar"
+                        />
+                        <p class="desc">
+                            I am an information technology student of NTT
+                            University
+                        </p>
+                        <div class="list-personal">
+                            <p class="desc">
+                                <span>Fullname: </span>Huynh Thanh Minh
+                            </p>
+                            <p class="desc"><span>Country: </span>VietNam</p>
+                        </div>
+                        <div class="eduction">
+                            <h2 class="sub-title" id="education">Education</h2>
+                            <ol class="list">
+                                <li>Truong tieu hoc B An phu</li>
+                                <li>Truong THPT Thai van lung</li>
+                                <li>GDNN-GDTX Thu Duc</li>
+                                <li>NTT University</li>
+                            </ol>
+                        </div>
+                        <div class="scores">
+                            <h2 class="sub-title" id="scores">Scores</h2>
+                            <table>
+                                <tr>
+                                    <th rowspan="2"></th>
+                                    <th colspan="2">Math</th>
+                                    <th rowspan="2">Physics</th>
+                                    <th rowspan="2">IT</th>
+                                </tr>
+                                <tr>
+                                    <th>Math 1</th>
+                                    <th>Math 2</th>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>9.5</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>2023</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>9.5</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>2024</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>9.5</td>
+                                    <td>10</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="social-media">
+                            <h2 class="sub-title" id="social">Social Media</h2>
+                            <p class="desc">
+                                Zalo:
+                                <a href="tel:0346864943">Ming Dev Lap Trinh</a>
+                            </p>
+                            <p class="desc">
+                                Facebook:
+                                <a
+                                    href="https://www.facebook.com/profile.php?id=100036958007188"
+                                    >Ming Dev Lap Trinh</a
+                                >
+                            </p>
+                        </div>
+                    </div>
 
-                <ul>
-                    <li><strong>Fullname:</strong> Huynh Thanh Minh</li>
-                    <li><strong>Country:</strong> VietNam</li>
-                </ul>
+                    <div class="container-fight">
+                        <h2 class="sub-title">Favorite game</h2>
+                        <div class="list">
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading line-clamp">
+                                    Fifa Online 4
+                                </h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
 
-                <h2 id="education">Education</h2>
-                <ol>
-                    <li>Truong tieu hoc P An phu</li>
-                    <li>Truong THPT Thai van lung</li>
-                    <li>GDNN-GDTX Thu Duc</li>
-                    <li>NTT University</li>
-                </ol>
-                <h2 id="scores">Scores</h2>
-                <table>
-                    <tr>
-                        <th rowspan="2"></th>
-                        <th colspan="2">Math</th>
-                        <th rowspan="2">Physics</th>
-                        <th rowspan="2">IT</th>
-                    </tr>
-                    <tr>
-                        <th>Math 1</th>
-                        <th>Math 2</th>
-                    </tr>
-                    <tr>
-                        <td>2022</td>
-                        <td>10</td>
-                        <td>0</td>
-                        <td>9</td>
-                        <td>9.5</td>
-                    </tr>
-                    <tr>
-                        <td>2023</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>2024</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                </table>
-                <h2 id="social">Social Media</h2>
-                <p>Zalo: <a href="tel:03468564943">Minh DEV Lap Trinh</a></p>
-                <p>
-                    Facebook:
-                    <a
-                        href="https://www.facebook.com/profile.php?id=100036958007188"
-                        >Minh DEV Lap Trinh</a
-                    >
-                </p>
-            </div>
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading">Fifa Online 4</h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
 
-            <div class="right-sida">
-                <h2 id="game">Favorite game</h2>
-                <div class="game_container">
-                    <div class="game_item">
-                        <img
-                            src="./assets/image/fo4.jpg"
-                            alt=""
-                            class="image"
-                        />
-                        <div class="game-title">Fifa online 4</div>
-                        <div class="desc">
-                            Đây alf game bóng đá yêu thích của tôi vì dễ chơi và
-                            có tính giải trí cao.
-                        </div>
-                    </div>
-                    <div class="game_item">
-                        <img
-                            src="./assets/image/lol.jpg"
-                            alt=""
-                            class="image"
-                        />
-                        <div class="game-title">Liên Minh Huyền Thoại</div>
-                        <div class="desc">
-                            Tôi mới chơi game này gần đây nhưng thật sự há cuốn
-                            và hấp dẫn.
-                        </div>
-                    </div>
-                    <div class="game_item">
-                        <img
-                            src="./assets/image/lol-mobile.jpg"
-                            alt=""
-                            class="image"
-                        />
-                        <div class="game-title">Tốc chiến</div>
-                        <div class="desc">
-                            Game này rất hay, hồi trước tôi try hard rất nhiều ở
-                            những mùa đầu ra mắt.
-                        </div>
-                    </div>
-                    <div class="game_item">
-                        <img
-                            src="./assets/image/lien-quan (2).jpg"
-                            alt=""
-                            class="image"
-                        />
-                        <div class="game-title">Liên Quân Mobile</div>
-                        <div class="desc">
-                            Game gắn bó với tôi được 4 hay 5 năm gì đó, thỉnh
-                            thoảng tôi vẫn chơi nó
-                        </div>
-                    </div>
-                    <div class="game_item">
-                        <img src="./assets/image/ff.jpg" alt="" class="image" />
-                        <div class="game-title">Lửa chùa Never Die</div>
-                        <div class="desc">
-                            Game trẻ trâu chơi :)) , thôi không nói nữa đâu trẻ
-                            trâu vô chữi chết
-                        </div>
-                    </div>
-                    <div class="game_item">
-                        <img
-                            src="./assets/image/rua-common.jpg"
-                            alt=""
-                            class="image"
-                        />
-                        <div class="game-title">Rùa Common</div>
-                        <div class="desc">
-                            Hết ý tưởng nên đưa pet vô đây chơi.
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading">Fifa Online 4</h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading">Fifa Online 4</h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading">Fifa Online 4</h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <img
+                                    src="./assets/image/fo4.jpg"
+                                    alt=""
+                                    class="image"
+                                />
+                                <h3 class="heading">Fifa Online 4</h3>
+                                <p class="desc line-clamp lv3" lang="vn">
+                                    Đây là game bóng đá yêu thích của tôi vì dễ
+                                    chơi và có tính giải trí cao.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <footer>
-            Created by Minh DEV -
-            <a href="mailto:huynhminhriot1@gmail.com">Email me</a>
-        </footer>
+            <div class="the-end">
+                <p class="desc">
+                    Created by Minh DEV -
+                    <a href="mailto:huynhminhriot1@gmail.com">Email Me</a>
+                </p>
+            </div>
+        </main>
     </body>
 </html>
