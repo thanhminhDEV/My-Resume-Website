@@ -240,6 +240,7 @@ table td {
 }
 
 .container-fight .list .item .desc {
+    margin-left: 10px;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.2;
@@ -249,6 +250,7 @@ table td {
 @media (max-width: 800px) {
     .introduce .info {
         flex: 100%;
+        padding: 20px 20px;
     }
 
     .container {
@@ -257,6 +259,7 @@ table td {
     }
 
     .container-fight {
+        
         flex: 100%;
     }
 
@@ -266,6 +269,11 @@ table td {
     }
     .nav-right .list a,
     .nav-left .list a {
-        padding: 16px 10px;
+        padding: 15px 5px;
+    }
+    .container-fight .list .item .desc,
+    .container-fight .list .item .heading {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
